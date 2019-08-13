@@ -18,7 +18,6 @@ class MovieList extends PureComponent {
   };
 
   render() {
-    console.log(this.props.movies);
     return (
       <div>
         <Logo 

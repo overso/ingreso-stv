@@ -19,7 +19,6 @@ class MovieDetail extends PureComponent {
         return <div><h1>Cargando ...</h1></div>;
     }
     const { selectedMovie } = this.props.movies;
-    console.log(selectedMovie);
     return (
         <div className="wrapper">
             <div className="box header">
