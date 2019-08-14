@@ -147,6 +147,7 @@ code {
   .movies-grid {
     grid-template-columns: repeat(1, 1fr);
   }
+
 }
 @media (min-width: 34em) {
   .movies-grid {
@@ -195,3 +196,31 @@ code {
   opacity: 1;
   transition: .3s opacity ease;
 }
+
+.detailContainer {
+  width: 500px;
+  margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .detailContainer {
+    width: 100%;
+  }
+}
+
+.detailContainer h2 {
+  color: bisque;
+}
+
+.modal-body img {
+  width: 100%;
+  border: 5px solid #fff;
+}
+
+.modal-body {
+  background-color: black;
+  color: #fff;
+}
+
+
+

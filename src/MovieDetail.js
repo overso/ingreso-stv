@@ -20,13 +20,10 @@ class MovieDetail extends PureComponent {
     }
     const { selectedMovie } = this.props.movies;
     return (
-        <div className="wrapper">
-            <div className="box header">
-                <Link to={`/movies/`}><h2>regresar</h2></Link>
-                <h2>{selectedMovie.title}</h2>
-            </div>
-            <div className="box sidebar"><img src={selectedMovie.image_medium} alt={selectedMovie.image_small_alt} /></div>
-            <div className="box content">
+        <div className="detailContainer">
+            <Link to={`/movies/`}><h2>&#11013; regresar</h2></Link>
+            <div className="modal-body">
+                <img src={selectedMovie.image_large} alt={selectedMovie.image_small_alt} />
                 <TitleDetail 
                     title={selectedMovie.title}
                     publishyear={selectedMovie.extendedcommon.media.publishyear} 
