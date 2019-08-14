@@ -19,7 +19,7 @@ class MovieList extends PureComponent {
 
   render() {
     return (
-      <div>
+      <div className="movies-container">
         <Logo 
           src="https://www.clarovideo.com/webclient/sk_core/images/clarovideo-logo-sitio.svg"
           alt="ClaroVideo"

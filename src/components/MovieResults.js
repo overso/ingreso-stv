@@ -3,7 +3,7 @@ import MovieResultRow from "./MovieResultRow";
 
 const MovieResults = props => {
     return (
-        <div className="rowContainer">
+        <div className="movies-grid">
             {props.movies.map(movie => (
                 <MovieResultRow
                     key={movie.id}
