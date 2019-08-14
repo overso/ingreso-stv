@@ -5,3 +5,4 @@ Aplicación Web en react para simular dos pantallas de Clarovideo: listado de pe
 ## Comandos principales para ejecutar la aplicación
 + npm install
 + npm start
++ Contexto de la app web: http://localhost:3000/#/movies/
